@@ -1,45 +1,78 @@
-# Privacy Policy - Block People & Keywords
+**Privacy Policy — Block People & Keywords**
 
-**Last updated:** 6 April 2026
+Last updated: April 2026
 
-## Overview
+This Privacy Policy explains how **Block People & Keywords** handles your data. It is available as a Chrome extension and as a Safari Web Extension for macOS and iOS. Developed by Victor Humenhuk.
 
-Block People & Keywords is a Chrome extension that redacts or hides user-specified terms, names, and keywords across websites. This privacy policy explains how the extension handles user data.
+**In short**
 
-## Data Collection
+- No data leaves your device.
+- No tracking, no analytics, no ads.
+- Your blocked terms are stored locally on your device only.
 
-Block People & Keywords does **not** collect, store externally, transmit, or share any user data. Specifically, the extension does not collect:
+**What the Extension does**
 
-- Personal information (name, email, address, or any identifiers)
+Block People & Keywords redacts (blurs) or hides user-specified terms, names, and keywords across websites. All scanning and filtering happens locally in your browser.
+
+**What it collects**
+
+Nothing. The Extension does not collect, transmit, or share:
+
+- Personal information (name, email, identifiers)
 - Browsing history or web activity
 - Authentication or financial information
 - Location data
 - Website content
-- Usage analytics or telemetry
+- Analytics or telemetry
 
-## How the Extension Works
+**How scanning works**
 
-The extension injects a content script that scans visible text and media attributes on webpages for terms the user has specified in the popup. Matching content is either redacted (blurred) or hidden depending on user settings. All processing occurs locally within your browser. No page content, blocked terms, or matched results are sent to any server.
+A content script scans visible text and media attributes on pages you visit for terms you've specified in the popup. Matching content is either blurred or hidden, depending on your settings. No page content, blocked terms, or matched results are sent to any server.
 
-## Data Storage
+**Data storage**
 
-The extension stores the user's list of blocked terms and toggle preferences in Chrome's local storage on your device. This data never leaves your browser and is not synced externally.
+Your list of blocked terms and display preferences are saved locally on your device using your browser's built-in extension storage (`chrome.storage.local` in Chrome, `browser.storage.local` in Safari). This data never leaves your browser and is not synced externally.
 
-## Third Parties
+**How to delete your data**
 
-No user data is sold, transferred, or disclosed to any third party.
+- **Chrome:** uninstall the Extension, or clear its storage in Chrome settings.
+- **Safari (macOS):** uninstall the app, or clear the Extension's website data in Safari settings.
+- **Safari (iOS):** uninstall the app, or reset the Extension's website data in Settings > Apps > Safari > Extensions.
 
-## Permissions
+**Data sharing**
 
-- **storage:** Used to save the user's blocked terms and display preferences locally on their device.
-- **host_permissions (<all_urls>):** Required to inject the content script that scans and filters page content on any webpage the user visits.
+None. The Extension makes no external network requests and talks to no servers. No data is sold, transferred, or disclosed to any third party.
 
-These permissions are not used to read, collect, or transmit any personal data.
+**Third-party services**
 
-## Changes to This Policy
+None. No analytics, advertising, or tracking of any kind.
 
-If this policy is updated, the revised version will be posted at this URL with an updated date.
+**Permissions**
 
-## Contact
+**Chrome**
 
-If you have questions about this privacy policy, contact: victor@thesmios.com
+- `storage`: save your blocked terms and preferences locally.
+- Host access (`<all_urls>`): inject a content script that scans and filters page content on any site you visit. Not used to read, collect, or transmit personal data.
+
+**Safari (macOS and iOS)**
+
+- `storage`: save your blocked terms and preferences locally.
+- Website access (all websites): inject a content script that scans and filters page content. Safari requires you to grant this, and you can revoke or limit it to specific sites at any time in Safari settings.
+
+**Apple privacy**
+
+On iOS and macOS, the Extension runs inside Apple's App Sandbox and WebExtensions security model. It does not access other apps, the clipboard, camera, microphone, location, contacts, or any other protected resource. No App Tracking Transparency disclosure is needed because no tracking occurs.
+
+**Children's privacy**
+
+The Extension does not knowingly collect data from anyone, including children under 13.
+
+**Changes**
+
+If this policy changes, the new version will appear at this URL with an updated date.
+
+**Contact**
+
+- Chrome Web Store support contact (Chrome version).
+- App Store support link (macOS and iOS versions).
+- Email: **victor@thesmios.com**
