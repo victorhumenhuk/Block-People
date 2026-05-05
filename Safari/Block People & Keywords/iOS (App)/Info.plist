@@ -4,6 +4,10 @@
 <dict>
 	<key>CFBundleDisplayName</key>
 	<string>Block People</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
 	<key>SFSafariWebExtensionConverterVersion</key>
 	<string>26.4</string>
 	<key>UIApplicationSceneManifest</key>

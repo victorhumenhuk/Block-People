@@ -11,6 +11,7 @@
 - Content-script harness: local Playwright CLI verified hide mode, redact mode, dynamic DOM insertions, whole-word behavior for `art` versus `startup`, CJK matching, Arabic matching, emoji-adjacent text, immediate mode changes, and restore after term removal.
 - Xcode iOS build: `xcodebuild -project "Block People & Keywords.xcodeproj" -scheme "Block People & Keywords (iOS)" -configuration Release -destination "generic/platform=iOS" -derivedDataPath /tmp/bpk-derived-ios CODE_SIGNING_ALLOWED=NO build` completed successfully.
 - Xcode macOS build: `xcodebuild -project "Block People & Keywords.xcodeproj" -scheme "Block People & Keywords (macOS)" -configuration Release -destination "platform=macOS" -derivedDataPath /tmp/bpk-derived-macos CODE_SIGNING_ALLOWED=NO build` completed successfully.
+- Version audit: app and extension Info.plists declare `CFBundleShortVersionString` as `1.0` and `CFBundleVersion` as `1`.
 - Icon audit: active app and extension icon assets report no alpha channel. Required app icon sizes declared in the asset catalog are present.
 
 ## UI Sizes To Verify Manually On Device

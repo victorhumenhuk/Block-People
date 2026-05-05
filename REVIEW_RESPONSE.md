@@ -28,6 +28,7 @@ No feedback-specific root cause can be identified without the original reviewer 
 - Ran a local Playwright CLI content-script harness for hide/redact behavior, dynamic content, Unicode matching, whole-word matching, immediate mode changes, and restore after removing a term.
 - Built the iOS target in Release configuration with `xcodebuild` and `CODE_SIGNING_ALLOWED=NO`.
 - Built the macOS target in Release configuration with `xcodebuild` and `CODE_SIGNING_ALLOWED=NO`.
+- Confirmed the app and extension Info.plists declare version `1.0` and build `1`.
 - Audited active app and extension icons for missing alpha-channel issues.
 
 ## Listing changes required
