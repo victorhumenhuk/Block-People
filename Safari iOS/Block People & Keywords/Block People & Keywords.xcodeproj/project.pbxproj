@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5863E6A12F7CF54800CA1E1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5863E6A02F7CF54800CA1E1D /* AppDelegate.swift */; };
+		5863E6A52F7CF54800CA1E1D /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 5863E6A32F7CF54800CA1E1D /* Main.html */; };
+		5863E6A72F7CF54800CA1E1D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5863E6A62F7CF54800CA1E1D /* Icon.png */; };
+		5863E6A92F7CF54800CA1E1D /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 5863E6A82F7CF54800CA1E1D /* Style.css */; };
+		5863E7002F90000000CA1E1D /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 5863E7012F90000000CA1E1D /* Script.js */; };
+		5863E6AB2F7CF54800CA1E1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5863E6AA2F7CF54800CA1E1D /* SceneDelegate.swift */; };
+		5863E6AD2F7CF54800CA1E1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5863E6AC2F7CF54800CA1E1D /* ViewController.swift */; };
+		5863E6B02F7CF54800CA1E1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5863E6AE2F7CF54800CA1E1D /* LaunchScreen.storyboard */; };
+		5863E6B32F7CF54800CA1E1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5863E6B12F7CF54800CA1E1D /* Main.storyboard */; };
+		5863E6BB2F7CF54900CA1E1D /* Block People & Keywords Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5863E6BA2F7CF54900CA1E1D /* Block People & Keywords Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5863E6C02F7CF54900CA1E1D /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5863E6BF2F7CF54900CA1E1D /* SafariWebExtensionHandler.swift */; };
+		5863E6C22F7CF54900CA1E1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5863E6B42F7CF54900CA1E1D /* Assets.xcassets */; };
+		5863E6D32F7CF54900CA1E1D /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 5863E6CD2F7CF54900CA1E1D /* popup.js */; };
+		5863E6D42F7CF54900CA1E1D /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 5863E6CE2F7CF54900CA1E1D /* popup.html */; };
+		5863E6D52F7CF54900CA1E1D /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 5863E6CF2F7CF54900CA1E1D /* icons */; };
+		5863E6D62F7CF54900CA1E1D /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 5863E6D02F7CF54900CA1E1D /* manifest.json */; };
+		5863E6D72F7CF54900CA1E1D /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 5863E6D12F7CF54900CA1E1D /* popup.css */; };
+		5863E6D82F7CF54900CA1E1D /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 5863E6D22F7CF54900CA1E1D /* content.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5863E6BC2F7CF54900CA1E1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5863E6952F7CF54800CA1E1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5863E6B92F7CF54900CA1E1D;
+			remoteInfo = "Block People & Keywords Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5863E6C82F7CF54900CA1E1D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5863E6BB2F7CF54900CA1E1D /* Block People & Keywords Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5863E69D2F7CF54800CA1E1D /* Block People & Keywords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Block People & Keywords.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5863E6A02F7CF54800CA1E1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5863E6A42F7CF54800CA1E1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		5863E6A62F7CF54800CA1E1D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		5863E6A82F7CF54800CA1E1D /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		5863E7012F90000000CA1E1D /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		5863E6AA2F7CF54800CA1E1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5863E6AC2F7CF54800CA1E1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5863E6AF2F7CF54800CA1E1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5863E6B22F7CF54800CA1E1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5863E6B42F7CF54900CA1E1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5863E6B52F7CF54900CA1E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5863E6BA2F7CF54900CA1E1D /* Block People & Keywords Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Block People & Keywords Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5863E6BF2F7CF54900CA1E1D /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		5863E6C12F7CF54900CA1E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5863E6CD2F7CF54900CA1E1D /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = Resources/popup.js; sourceTree = "<group>"; };
+		5863E6CE2F7CF54900CA1E1D /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = Resources/popup.html; sourceTree = "<group>"; };
+		5863E6CF2F7CF54900CA1E1D /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = Resources/icons; sourceTree = "<group>"; };
+		5863E6D02F7CF54900CA1E1D /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		5863E6D12F7CF54900CA1E1D /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = popup.css; path = Resources/popup.css; sourceTree = "<group>"; };
+		5863E6D22F7CF54900CA1E1D /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = Resources/content.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5863E69A2F7CF54800CA1E1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5863E6B72F7CF54900CA1E1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5863E6942F7CF54800CA1E1D = {
+			isa = PBXGroup;
+			children = (
+				5863E69F2F7CF54800CA1E1D /* Block People & Keywords */,
+				5863E6BE2F7CF54900CA1E1D /* Block People & Keywords Extension */,
+				5863E69E2F7CF54800CA1E1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5863E69E2F7CF54800CA1E1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5863E69D2F7CF54800CA1E1D /* Block People & Keywords.app */,
+				5863E6BA2F7CF54900CA1E1D /* Block People & Keywords Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5863E69F2F7CF54800CA1E1D /* Block People & Keywords */ = {
+			isa = PBXGroup;
+			children = (
+				5863E6A02F7CF54800CA1E1D /* AppDelegate.swift */,
+				5863E6AA2F7CF54800CA1E1D /* SceneDelegate.swift */,
+				5863E6AC2F7CF54800CA1E1D /* ViewController.swift */,
+				5863E6AE2F7CF54800CA1E1D /* LaunchScreen.storyboard */,
+				5863E6B12F7CF54800CA1E1D /* Main.storyboard */,
+				5863E6B42F7CF54900CA1E1D /* Assets.xcassets */,
+				5863E6B52F7CF54900CA1E1D /* Info.plist */,
+				5863E6A22F7CF54800CA1E1D /* Resources */,
+			);
+			path = "Block People & Keywords";
+			sourceTree = "<group>";
+		};
+		5863E6A22F7CF54800CA1E1D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5863E6A32F7CF54800CA1E1D /* Main.html */,
+				5863E6A62F7CF54800CA1E1D /* Icon.png */,
+				5863E6A82F7CF54800CA1E1D /* Style.css */,
+				5863E7012F90000000CA1E1D /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5863E6BE2F7CF54900CA1E1D /* Block People & Keywords Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5863E6CC2F7CF54900CA1E1D /* Resources */,
+				5863E6BF2F7CF54900CA1E1D /* SafariWebExtensionHandler.swift */,
+				5863E6C12F7CF54900CA1E1D /* Info.plist */,
+			);
+			path = "Block People & Keywords Extension";
+			sourceTree = "<group>";
+		};
+		5863E6CC2F7CF54900CA1E1D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5863E6CD2F7CF54900CA1E1D /* popup.js */,
+				5863E6CE2F7CF54900CA1E1D /* popup.html */,
+				5863E6CF2F7CF54900CA1E1D /* icons */,
+				5863E6D02F7CF54900CA1E1D /* manifest.json */,
+				5863E6D12F7CF54900CA1E1D /* popup.css */,
+				5863E6D22F7CF54900CA1E1D /* content.js */,
+			);
+			name = Resources;
+			path = "Block People & Keywords Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5863E69C2F7CF54800CA1E1D /* Block People & Keywords */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5863E6C92F7CF54900CA1E1D /* Build configuration list for PBXNativeTarget "Block People & Keywords" */;
+			buildPhases = (
+				5863E6992F7CF54800CA1E1D /* Sources */,
+				5863E69A2F7CF54800CA1E1D /* Frameworks */,
+				5863E69B2F7CF54800CA1E1D /* Resources */,
+				5863E6C82F7CF54900CA1E1D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5863E6BD2F7CF54900CA1E1D /* PBXTargetDependency */,
+			);
+			name = "Block People & Keywords";
+			packageProductDependencies = (
+			);
+			productName = "Block People & Keywords";
+			productReference = 5863E69D2F7CF54800CA1E1D /* Block People & Keywords.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5863E6B92F7CF54900CA1E1D /* Block People & Keywords Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5863E6C52F7CF54900CA1E1D /* Build configuration list for PBXNativeTarget "Block People & Keywords Extension" */;
+			buildPhases = (
+				5863E6B62F7CF54900CA1E1D /* Sources */,
+				5863E6B72F7CF54900CA1E1D /* Frameworks */,
+				5863E6B82F7CF54900CA1E1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Block People & Keywords Extension";
+			packageProductDependencies = (
+			);
+			productName = "Block People & Keywords Extension";
+			productReference = 5863E6BA2F7CF54900CA1E1D /* Block People & Keywords Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5863E6952F7CF54800CA1E1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					5863E69C2F7CF54800CA1E1D = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					5863E6B92F7CF54900CA1E1D = {
+						CreatedOnToolsVersion = 26.4;
+					};
+				};
+			};
+			buildConfigurationList = 5863E6982F7CF54800CA1E1D /* Build configuration list for PBXProject "Block People & Keywords" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5863E6942F7CF54800CA1E1D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5863E69E2F7CF54800CA1E1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5863E69C2F7CF54800CA1E1D /* Block People & Keywords */,
+				5863E6B92F7CF54900CA1E1D /* Block People & Keywords Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5863E69B2F7CF54800CA1E1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5863E6A72F7CF54800CA1E1D /* Icon.png in Resources */,
+				5863E6B32F7CF54800CA1E1D /* Main.storyboard in Resources */,
+				5863E6B02F7CF54800CA1E1D /* LaunchScreen.storyboard in Resources */,
+				5863E6A52F7CF54800CA1E1D /* Main.html in Resources */,
+				5863E6C22F7CF54900CA1E1D /* Assets.xcassets in Resources */,
+				5863E6A92F7CF54800CA1E1D /* Style.css in Resources */,
+				5863E7002F90000000CA1E1D /* Script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5863E6B82F7CF54900CA1E1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5863E6D82F7CF54900CA1E1D /* content.js in Resources */,
+				5863E6D72F7CF54900CA1E1D /* popup.css in Resources */,
+				5863E6D62F7CF54900CA1E1D /* manifest.json in Resources */,
+				5863E6D52F7CF54900CA1E1D /* icons in Resources */,
+				5863E6D32F7CF54900CA1E1D /* popup.js in Resources */,
+				5863E6D42F7CF54900CA1E1D /* popup.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5863E6992F7CF54800CA1E1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5863E6AD2F7CF54800CA1E1D /* ViewController.swift in Sources */,
+				5863E6A12F7CF54800CA1E1D /* AppDelegate.swift in Sources */,
+				5863E6AB2F7CF54800CA1E1D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5863E6B62F7CF54900CA1E1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5863E6C02F7CF54900CA1E1D /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5863E6BD2F7CF54900CA1E1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5863E6B92F7CF54900CA1E1D /* Block People & Keywords Extension */;
+			targetProxy = 5863E6BC2F7CF54900CA1E1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5863E6A32F7CF54800CA1E1D /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5863E6A42F7CF54800CA1E1D /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		5863E6AE2F7CF54800CA1E1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5863E6AF2F7CF54800CA1E1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5863E6B12F7CF54800CA1E1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5863E6B22F7CF54800CA1E1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5863E6C32F7CF54900CA1E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5863E6C42F7CF54900CA1E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5863E6C62F7CF54900CA1E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block People & Keywords Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Block People & Keywords Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.victorhumenhuk.Block-People---Keywords.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5863E6C72F7CF54900CA1E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block People & Keywords Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Block People & Keywords Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.victorhumenhuk.Block-People---Keywords.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5863E6CA2F7CF54900CA1E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block People & Keywords/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Block People & Keywords";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.victorhumenhuk.Block-People---Keywords";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5863E6CB2F7CF54900CA1E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block People & Keywords/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Block People & Keywords";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.victorhumenhuk.Block-People---Keywords";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5863E6982F7CF54800CA1E1D /* Build configuration list for PBXProject "Block People & Keywords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5863E6C32F7CF54900CA1E1D /* Debug */,
+				5863E6C42F7CF54900CA1E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5863E6C52F7CF54900CA1E1D /* Build configuration list for PBXNativeTarget "Block People & Keywords Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5863E6C62F7CF54900CA1E1D /* Debug */,
+				5863E6C72F7CF54900CA1E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5863E6C92F7CF54900CA1E1D /* Build configuration list for PBXNativeTarget "Block People & Keywords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5863E6CA2F7CF54900CA1E1D /* Debug */,
+				5863E6CB2F7CF54900CA1E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5863E6952F7CF54800CA1E1D /* Project object */;
+}
