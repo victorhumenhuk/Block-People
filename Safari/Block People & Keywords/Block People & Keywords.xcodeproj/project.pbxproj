@@ -1,0 +1,1031 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		582E10242F841DEA006E2126 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582E10232F841DEA006E2126 /* AppDelegate.swift */; };
+		582E10262F841DEA006E2126 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582E10252F841DEA006E2126 /* SceneDelegate.swift */; };
+		582E10292F841DEA006E2126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582E10272F841DEA006E2126 /* LaunchScreen.storyboard */; };
+		582E102C2F841DEA006E2126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582E102A2F841DEA006E2126 /* Main.storyboard */; };
+		582E10352F841DEA006E2126 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582E10342F841DEA006E2126 /* AppDelegate.swift */; };
+		582E10382F841DEA006E2126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582E10362F841DEA006E2126 /* Main.storyboard */; };
+		582E103F2F841DEA006E2126 /* Block People & Keywords Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 582E103E2F841DEA006E2126 /* Block People & Keywords Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		582E10492F841DEA006E2126 /* Block People & Keywords Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 582E10482F841DEA006E2126 /* Block People & Keywords Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		582E104E2F841DEA006E2126 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 582E10132F841DE9006E2126 /* Main.html */; };
+		582E104F2F841DEA006E2126 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 582E10132F841DE9006E2126 /* Main.html */; };
+		582E10502F841DEA006E2126 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E10152F841DE9006E2126 /* Icon.png */; };
+		582E10512F841DEA006E2126 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E10152F841DE9006E2126 /* Icon.png */; };
+		582E10522F841DEA006E2126 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 582E10162F841DE9006E2126 /* Style.css */; };
+		582E10532F841DEA006E2126 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 582E10162F841DE9006E2126 /* Style.css */; };
+		582E10542F841DEA006E2126 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 582E10172F841DE9006E2126 /* Script.js */; };
+		582E10552F841DEA006E2126 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 582E10172F841DE9006E2126 /* Script.js */; };
+		582E10562F841DEA006E2126 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582E10182F841DE9006E2126 /* ViewController.swift */; };
+		582E10572F841DEA006E2126 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582E10182F841DE9006E2126 /* ViewController.swift */; };
+		582E10582F841DEA006E2126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 582E10192F841DEA006E2126 /* Assets.xcassets */; };
+		582E10592F841DEA006E2126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 582E10192F841DEA006E2126 /* Assets.xcassets */; };
+		582E105A2F841DEA006E2126 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582E101B2F841DEA006E2126 /* SafariWebExtensionHandler.swift */; };
+		582E105B2F841DEA006E2126 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582E101B2F841DEA006E2126 /* SafariWebExtensionHandler.swift */; };
+		582E10732F841DEA006E2126 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 582E106D2F841DEA006E2126 /* popup.js */; };
+		582E10742F841DEA006E2126 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 582E106E2F841DEA006E2126 /* popup.html */; };
+		582E10752F841DEA006E2126 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 582E106F2F841DEA006E2126 /* icons */; };
+		582E10762F841DEA006E2126 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 582E10702F841DEA006E2126 /* manifest.json */; };
+		582E10772F841DEA006E2126 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 582E10712F841DEA006E2126 /* popup.css */; };
+		582E10782F841DEA006E2126 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 582E10722F841DEA006E2126 /* content.js */; };
+		582E10792F841DEA006E2126 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 582E106D2F841DEA006E2126 /* popup.js */; };
+		582E107A2F841DEA006E2126 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 582E106E2F841DEA006E2126 /* popup.html */; };
+		582E107B2F841DEA006E2126 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 582E106F2F841DEA006E2126 /* icons */; };
+		582E107C2F841DEA006E2126 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 582E10702F841DEA006E2126 /* manifest.json */; };
+		582E107D2F841DEA006E2126 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 582E10712F841DEA006E2126 /* popup.css */; };
+		582E107E2F841DEA006E2126 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 582E10722F841DEA006E2126 /* content.js */; };
+		582E20052F850000006E2126 /* storage.js in Resources */ = {isa = PBXBuildFile; fileRef = 582E20002F850000006E2126 /* storage.js */; };
+		582E20062F850000006E2126 /* content.css in Resources */ = {isa = PBXBuildFile; fileRef = 582E20012F850000006E2126 /* content.css */; };
+		582E20072F850000006E2126 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 582E20022F850000006E2126 /* options.html */; };
+		582E20082F850000006E2126 /* options.css in Resources */ = {isa = PBXBuildFile; fileRef = 582E20032F850000006E2126 /* options.css */; };
+		582E20092F850000006E2126 /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 582E20042F850000006E2126 /* options.js */; };
+		582E200A2F850000006E2126 /* storage.js in Resources */ = {isa = PBXBuildFile; fileRef = 582E20002F850000006E2126 /* storage.js */; };
+		582E200B2F850000006E2126 /* content.css in Resources */ = {isa = PBXBuildFile; fileRef = 582E20012F850000006E2126 /* content.css */; };
+		582E200C2F850000006E2126 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 582E20022F850000006E2126 /* options.html */; };
+		582E200D2F850000006E2126 /* options.css in Resources */ = {isa = PBXBuildFile; fileRef = 582E20032F850000006E2126 /* options.css */; };
+		582E200E2F850000006E2126 /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 582E20042F850000006E2126 /* options.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		582E10402F841DEA006E2126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 582E100D2F841DE9006E2126 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 582E103D2F841DEA006E2126;
+			remoteInfo = "Block People & Keywords Extension (iOS)";
+		};
+		582E104A2F841DEA006E2126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 582E100D2F841DE9006E2126 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 582E10472F841DEA006E2126;
+			remoteInfo = "Block People & Keywords Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		582E10612F841DEA006E2126 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				582E103F2F841DEA006E2126 /* Block People & Keywords Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582E10682F841DEA006E2126 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				582E10492F841DEA006E2126 /* Block People & Keywords Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		582E10142F841DE9006E2126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		582E10152F841DE9006E2126 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		582E10162F841DE9006E2126 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		582E10172F841DE9006E2126 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		582E10182F841DE9006E2126 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		582E10192F841DEA006E2126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		582E101B2F841DEA006E2126 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		582E10202F841DEA006E2126 /* Block People & Keywords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Block People & Keywords.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		582E10232F841DEA006E2126 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		582E10252F841DEA006E2126 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		582E10282F841DEA006E2126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		582E102B2F841DEA006E2126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		582E102D2F841DEA006E2126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		582E10322F841DEA006E2126 /* Block People & Keywords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Block People & Keywords.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		582E10342F841DEA006E2126 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		582E10372F841DEA006E2126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		582E10392F841DEA006E2126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		582E103E2F841DEA006E2126 /* Block People & Keywords Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Block People & Keywords Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		582E10432F841DEA006E2126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		582E10482F841DEA006E2126 /* Block People & Keywords Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Block People & Keywords Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		582E104D2F841DEA006E2126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		582E106D2F841DEA006E2126 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = Resources/popup.js; sourceTree = "<group>"; };
+		582E106E2F841DEA006E2126 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = Resources/popup.html; sourceTree = "<group>"; };
+		582E106F2F841DEA006E2126 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = Resources/icons; sourceTree = "<group>"; };
+		582E10702F841DEA006E2126 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		582E10712F841DEA006E2126 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = popup.css; path = Resources/popup.css; sourceTree = "<group>"; };
+		582E10722F841DEA006E2126 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = Resources/content.js; sourceTree = "<group>"; };
+		582E20002F850000006E2126 /* storage.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = storage.js; path = Resources/storage.js; sourceTree = "<group>"; };
+		582E20012F850000006E2126 /* content.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = content.css; path = Resources/content.css; sourceTree = "<group>"; };
+		582E20022F850000006E2126 /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = Resources/options.html; sourceTree = "<group>"; };
+		582E20032F850000006E2126 /* options.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = options.css; path = Resources/options.css; sourceTree = "<group>"; };
+		582E20042F850000006E2126 /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = options.js; path = Resources/options.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		582E101D2F841DEA006E2126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582E102F2F841DEA006E2126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582E103B2F841DEA006E2126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582E10452F841DEA006E2126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		582E100C2F841DE9006E2126 = {
+			isa = PBXGroup;
+			children = (
+				582E10112F841DE9006E2126 /* Shared (App) */,
+				582E101A2F841DEA006E2126 /* Shared (Extension) */,
+				582E10222F841DEA006E2126 /* iOS (App) */,
+				582E10332F841DEA006E2126 /* macOS (App) */,
+				582E10422F841DEA006E2126 /* iOS (Extension) */,
+				582E104C2F841DEA006E2126 /* macOS (Extension) */,
+				582E10212F841DEA006E2126 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		582E10112F841DE9006E2126 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				582E10182F841DE9006E2126 /* ViewController.swift */,
+				582E10192F841DEA006E2126 /* Assets.xcassets */,
+				582E10122F841DE9006E2126 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		582E10122F841DE9006E2126 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				582E10132F841DE9006E2126 /* Main.html */,
+				582E10152F841DE9006E2126 /* Icon.png */,
+				582E10162F841DE9006E2126 /* Style.css */,
+				582E10172F841DE9006E2126 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		582E101A2F841DEA006E2126 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				582E106C2F841DEA006E2126 /* Resources */,
+				582E101B2F841DEA006E2126 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		582E10212F841DEA006E2126 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				582E10202F841DEA006E2126 /* Block People & Keywords.app */,
+				582E10322F841DEA006E2126 /* Block People & Keywords.app */,
+				582E103E2F841DEA006E2126 /* Block People & Keywords Extension.appex */,
+				582E10482F841DEA006E2126 /* Block People & Keywords Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		582E10222F841DEA006E2126 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				582E10232F841DEA006E2126 /* AppDelegate.swift */,
+				582E10252F841DEA006E2126 /* SceneDelegate.swift */,
+				582E10272F841DEA006E2126 /* LaunchScreen.storyboard */,
+				582E102A2F841DEA006E2126 /* Main.storyboard */,
+				582E102D2F841DEA006E2126 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		582E10332F841DEA006E2126 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				582E10342F841DEA006E2126 /* AppDelegate.swift */,
+				582E10362F841DEA006E2126 /* Main.storyboard */,
+				582E10392F841DEA006E2126 /* Info.plist */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		582E10422F841DEA006E2126 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				582E10432F841DEA006E2126 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		582E104C2F841DEA006E2126 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				582E104D2F841DEA006E2126 /* Info.plist */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		582E106C2F841DEA006E2126 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				582E106D2F841DEA006E2126 /* popup.js */,
+				582E106E2F841DEA006E2126 /* popup.html */,
+				582E106F2F841DEA006E2126 /* icons */,
+				582E10702F841DEA006E2126 /* manifest.json */,
+				582E20002F850000006E2126 /* storage.js */,
+				582E20012F850000006E2126 /* content.css */,
+				582E10712F841DEA006E2126 /* popup.css */,
+				582E10722F841DEA006E2126 /* content.js */,
+				582E20022F850000006E2126 /* options.html */,
+				582E20032F850000006E2126 /* options.css */,
+				582E20042F850000006E2126 /* options.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		582E101F2F841DEA006E2126 /* Block People & Keywords (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582E10622F841DEA006E2126 /* Build configuration list for PBXNativeTarget "Block People & Keywords (iOS)" */;
+			buildPhases = (
+				582E101C2F841DEA006E2126 /* Sources */,
+				582E101D2F841DEA006E2126 /* Frameworks */,
+				582E101E2F841DEA006E2126 /* Resources */,
+				582E10612F841DEA006E2126 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				582E10412F841DEA006E2126 /* PBXTargetDependency */,
+			);
+			name = "Block People & Keywords (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Block People & Keywords (iOS)";
+			productReference = 582E10202F841DEA006E2126 /* Block People & Keywords.app */;
+			productType = "com.apple.product-type.application";
+		};
+		582E10312F841DEA006E2126 /* Block People & Keywords (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582E10692F841DEA006E2126 /* Build configuration list for PBXNativeTarget "Block People & Keywords (macOS)" */;
+			buildPhases = (
+				582E102E2F841DEA006E2126 /* Sources */,
+				582E102F2F841DEA006E2126 /* Frameworks */,
+				582E10302F841DEA006E2126 /* Resources */,
+				582E10682F841DEA006E2126 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				582E104B2F841DEA006E2126 /* PBXTargetDependency */,
+			);
+			name = "Block People & Keywords (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Block People & Keywords (macOS)";
+			productReference = 582E10322F841DEA006E2126 /* Block People & Keywords.app */;
+			productType = "com.apple.product-type.application";
+		};
+		582E103D2F841DEA006E2126 /* Block People & Keywords Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582E105E2F841DEA006E2126 /* Build configuration list for PBXNativeTarget "Block People & Keywords Extension (iOS)" */;
+			buildPhases = (
+				582E103A2F841DEA006E2126 /* Sources */,
+				582E103B2F841DEA006E2126 /* Frameworks */,
+				582E103C2F841DEA006E2126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Block People & Keywords Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Block People & Keywords Extension (iOS)";
+			productReference = 582E103E2F841DEA006E2126 /* Block People & Keywords Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		582E10472F841DEA006E2126 /* Block People & Keywords Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582E10652F841DEA006E2126 /* Build configuration list for PBXNativeTarget "Block People & Keywords Extension (macOS)" */;
+			buildPhases = (
+				582E10442F841DEA006E2126 /* Sources */,
+				582E10452F841DEA006E2126 /* Frameworks */,
+				582E10462F841DEA006E2126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Block People & Keywords Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Block People & Keywords Extension (macOS)";
+			productReference = 582E10482F841DEA006E2126 /* Block People & Keywords Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		582E100D2F841DE9006E2126 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					582E101F2F841DEA006E2126 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					582E10312F841DEA006E2126 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					582E103D2F841DEA006E2126 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					582E10472F841DEA006E2126 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+				};
+			};
+			buildConfigurationList = 582E10102F841DE9006E2126 /* Build configuration list for PBXProject "Block People & Keywords" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 582E100C2F841DE9006E2126;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 582E10212F841DEA006E2126 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				582E101F2F841DEA006E2126 /* Block People & Keywords (iOS) */,
+				582E10312F841DEA006E2126 /* Block People & Keywords (macOS) */,
+				582E103D2F841DEA006E2126 /* Block People & Keywords Extension (iOS) */,
+				582E10472F841DEA006E2126 /* Block People & Keywords Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		582E101E2F841DEA006E2126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582E10502F841DEA006E2126 /* Icon.png in Resources */,
+				582E10292F841DEA006E2126 /* LaunchScreen.storyboard in Resources */,
+				582E104E2F841DEA006E2126 /* Main.html in Resources */,
+				582E10542F841DEA006E2126 /* Script.js in Resources */,
+				582E10582F841DEA006E2126 /* Assets.xcassets in Resources */,
+				582E102C2F841DEA006E2126 /* Main.storyboard in Resources */,
+				582E10522F841DEA006E2126 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582E10302F841DEA006E2126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582E10512F841DEA006E2126 /* Icon.png in Resources */,
+				582E10532F841DEA006E2126 /* Style.css in Resources */,
+				582E10382F841DEA006E2126 /* Main.storyboard in Resources */,
+				582E10552F841DEA006E2126 /* Script.js in Resources */,
+				582E10592F841DEA006E2126 /* Assets.xcassets in Resources */,
+				582E104F2F841DEA006E2126 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582E103C2F841DEA006E2126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582E107E2F841DEA006E2126 /* content.js in Resources */,
+				582E20052F850000006E2126 /* storage.js in Resources */,
+				582E20062F850000006E2126 /* content.css in Resources */,
+				582E107D2F841DEA006E2126 /* popup.css in Resources */,
+				582E107C2F841DEA006E2126 /* manifest.json in Resources */,
+				582E107B2F841DEA006E2126 /* icons in Resources */,
+				582E10792F841DEA006E2126 /* popup.js in Resources */,
+				582E107A2F841DEA006E2126 /* popup.html in Resources */,
+				582E20072F850000006E2126 /* options.html in Resources */,
+				582E20082F850000006E2126 /* options.css in Resources */,
+				582E20092F850000006E2126 /* options.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582E10462F841DEA006E2126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582E10782F841DEA006E2126 /* content.js in Resources */,
+				582E200A2F850000006E2126 /* storage.js in Resources */,
+				582E200B2F850000006E2126 /* content.css in Resources */,
+				582E10772F841DEA006E2126 /* popup.css in Resources */,
+				582E10762F841DEA006E2126 /* manifest.json in Resources */,
+				582E10752F841DEA006E2126 /* icons in Resources */,
+				582E10732F841DEA006E2126 /* popup.js in Resources */,
+				582E10742F841DEA006E2126 /* popup.html in Resources */,
+				582E200C2F850000006E2126 /* options.html in Resources */,
+				582E200D2F850000006E2126 /* options.css in Resources */,
+				582E200E2F850000006E2126 /* options.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		582E101C2F841DEA006E2126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582E10562F841DEA006E2126 /* ViewController.swift in Sources */,
+				582E10242F841DEA006E2126 /* AppDelegate.swift in Sources */,
+				582E10262F841DEA006E2126 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582E102E2F841DEA006E2126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582E10572F841DEA006E2126 /* ViewController.swift in Sources */,
+				582E10352F841DEA006E2126 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582E103A2F841DEA006E2126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582E105A2F841DEA006E2126 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582E10442F841DEA006E2126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582E105B2F841DEA006E2126 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		582E10412F841DEA006E2126 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 582E103D2F841DEA006E2126 /* Block People & Keywords Extension (iOS) */;
+			targetProxy = 582E10402F841DEA006E2126 /* PBXContainerItemProxy */;
+		};
+		582E104B2F841DEA006E2126 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 582E10472F841DEA006E2126 /* Block People & Keywords Extension (macOS) */;
+			targetProxy = 582E104A2F841DEA006E2126 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		582E10132F841DE9006E2126 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				582E10142F841DE9006E2126 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		582E10272F841DEA006E2126 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				582E10282F841DEA006E2126 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		582E102A2F841DEA006E2126 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				582E102B2F841DEA006E2126 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		582E10362F841DEA006E2126 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				582E10372F841DEA006E2126 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		582E105C2F841DEA006E2126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		582E105D2F841DEA006E2126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		582E105F2F841DEA006E2126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = X595LC6BJH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Block People & Keywords Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.victorhumenhuk.Block-People-Keywords.Extension";
+				PRODUCT_NAME = "Block People & Keywords Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		582E10602F841DEA006E2126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = X595LC6BJH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Block People & Keywords Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.victorhumenhuk.Block-People-Keywords.Extension";
+				PRODUCT_NAME = "Block People & Keywords Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		582E10632F841DEA006E2126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = X595LC6BJH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Block People & Keywords";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.victorhumenhuk.Block-People-Keywords";
+				PRODUCT_NAME = "Block People & Keywords";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		582E10642F841DEA006E2126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = X595LC6BJH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Block People & Keywords";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.victorhumenhuk.Block-People-Keywords";
+				PRODUCT_NAME = "Block People & Keywords";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		582E10662F841DEA006E2126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = X595LC6BJH;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Block People & Keywords Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.victorhumenhuk.Block-People-Keywords.Extension";
+				PRODUCT_NAME = "Block People & Keywords Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		582E10672F841DEA006E2126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = X595LC6BJH;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Block People & Keywords Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.victorhumenhuk.Block-People-Keywords.Extension";
+				PRODUCT_NAME = "Block People & Keywords Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		582E106A2F841DEA006E2126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = X595LC6BJH;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Block People & Keywords";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.victorhumenhuk.Block-People-Keywords";
+				PRODUCT_NAME = "Block People & Keywords";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		582E106B2F841DEA006E2126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = X595LC6BJH;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Block People & Keywords";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.victorhumenhuk.Block-People-Keywords";
+				PRODUCT_NAME = "Block People & Keywords";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		582E10102F841DE9006E2126 /* Build configuration list for PBXProject "Block People & Keywords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582E105C2F841DEA006E2126 /* Debug */,
+				582E105D2F841DEA006E2126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		582E105E2F841DEA006E2126 /* Build configuration list for PBXNativeTarget "Block People & Keywords Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582E105F2F841DEA006E2126 /* Debug */,
+				582E10602F841DEA006E2126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		582E10622F841DEA006E2126 /* Build configuration list for PBXNativeTarget "Block People & Keywords (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582E10632F841DEA006E2126 /* Debug */,
+				582E10642F841DEA006E2126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		582E10652F841DEA006E2126 /* Build configuration list for PBXNativeTarget "Block People & Keywords Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582E10662F841DEA006E2126 /* Debug */,
+				582E10672F841DEA006E2126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		582E10692F841DEA006E2126 /* Build configuration list for PBXNativeTarget "Block People & Keywords (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582E106A2F841DEA006E2126 /* Debug */,
+				582E106B2F841DEA006E2126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 582E100D2F841DE9006E2126 /* Project object */;
+}

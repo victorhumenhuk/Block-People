@@ -1,0 +1,16 @@
+dist/
+build/
+*.zip
+*.crx
+*.pem
+node_modules/
+.DS_Store
+coverage/
+.env*
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcshareddata/
+xcuserdata/
+xcshareddata/
+*.xcresult
+*.xcuserstate
+DerivedData/

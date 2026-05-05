@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "Block People & Keywords",
+  "version": "1.0.1",
+  "description": "Hide or redact blocked names, people, phrases, and keywords across websites.",
+  "homepage_url": "https://github.com/victorhumenhuk/Block-People",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "_permission_justification": {
+    "storage": "Required to save blocked terms and the hide/redact mode in chrome.storage.sync, with local fallback where sync is unavailable.",
+    "<all_urls>": "Required because users can filter their own blocked terms on any website they visit; the extension does not make network requests."
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["<all_urls>"],
+  "content_security_policy": {
+    "extension_pages": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"
+  },
+  "action": {
+    "default_title": "Block People & Keywords",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  },
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["content.css"],
+      "js": ["storage.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+* {
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+:root {
+    color-scheme: light dark;
+    font: -apple-system-body;
+    --page: Canvas;
+    --surface: Canvas;
+    --surface-secondary: ButtonFace;
+    --text: CanvasText;
+    --text-secondary: GrayText;
+    --border: GrayText;
+    --primary: LinkText;
+    --primary-text: Canvas;
+    --focus-ring: Highlight;
+    --shadow: 0 0.5rem 2rem transparent;
+    --radius: 1rem;
+    --spacing: clamp(1rem, 3vw, 1.5rem);
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100dvh;
+    margin: 0;
+    padding:
+        max(var(--spacing), env(safe-area-inset-top))
+        max(var(--spacing), env(safe-area-inset-right))
+        max(var(--spacing), env(safe-area-inset-bottom))
+        max(var(--spacing), env(safe-area-inset-left));
+    background: var(--page);
+    color: var(--text);
+    font: -apple-system-body;
+    text-align: center;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.app-shell {
+    width: min(100%, 42rem);
+    min-height: calc(100dvh - (var(--spacing) * 2));
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: var(--spacing);
+}
+
+.hero {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    gap: 1rem;
+}
+
+.app-icon {
+    width: clamp(5rem, 24vw, 8rem);
+    height: clamp(5rem, 24vw, 8rem);
+    border-radius: 1.375rem;
+    box-shadow: var(--shadow);
+}
+
+.hero-copy {
+    display: grid;
+    gap: 0.5rem;
+    max-width: 32rem;
+}
+
+h1 {
+    margin: 0;
+    color: var(--text);
+    font: -apple-system-title2;
+}
+
+p {
+    margin: 0;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+}
+
+.resource-panel {
+    width: min(100%, 28rem);
+    display: grid;
+    gap: 0.625rem;
+}
+
+.resource-row,
+.primary-action {
+    min-height: 2.75rem;
+    border: 0;
+    border-radius: 0.75rem;
+    font: -apple-system-body;
+    cursor: pointer;
+}
+
+.resource-row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2rem minmax(0, 1fr);
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: var(--surface-secondary);
+    color: var(--text);
+    text-align: left;
+}
+
+.resource-icon {
+    display: inline-grid;
+    place-items: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 999rem;
+    background: var(--surface);
+    color: var(--primary);
+    font: -apple-system-callout;
+}
+
+.resource-text {
+    min-width: 0;
+    font-weight: 600;
+    overflow-wrap: anywhere;
+}
+
+.primary-action {
+    padding: 0.75rem 1.25rem;
+    background: var(--primary);
+    color: var(--primary-text);
+    font-weight: 500;
+}
+
+.resource-row:hover,
+.primary-action:hover {
+    filter: brightness(0.96);
+}
+
+.resource-row:focus-visible,
+.primary-action:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 0.25rem var(--focus-ring);
+}
+
+.resource-row:active,
+.primary-action:active {
+    transform: scale(0.99);
+}
+
+@media (min-width: 37.5rem) {
+    .app-shell {
+        align-content: center;
+        text-align: center;
+    }
+
+    .hero {
+        justify-items: center;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+        transition-duration: 0.001ms !important;
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "block-people-keywords-extension",
+  "version": "1.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "npx --yes eslint@9.25.1 Chrome scripts",
+    "build": "node scripts/build.mjs"
+  }
+}
