@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Block People & Keywords Options</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <main class="options-shell" aria-labelledby="optionsTitle">
+      <header class="options-header">
+        <div class="brand">
+          <img src="icons/icon-48.png" alt="" class="brand-icon" />
+          <div><h1 id="optionsTitle">Block People & Keywords</h1><p id="summary">0 blocked terms</p></div>
+        </div>
+        <div class="header-actions">
+          <button id="reloadBtn" class="secondary-btn" type="button">Reload</button>
+          <button id="saveBtn" class="primary-btn" type="button">Save</button>
+        </div>
+      </header>
+      <section class="settings-grid" aria-label="Extension settings">
+        <div class="panel terms-panel">
+          <div class="panel-heading"><h2>Blocked terms</h2><button id="clearBtn" class="secondary-btn danger" type="button">Clear all</button></div>
+          <label for="termsInput">Names, phrases, and keywords</label>
+          <textarea id="termsInput" spellcheck="false" rows="14" placeholder="One block per line"></textarea>
+        </div>
+        <div class="panel">
+          <h2>Mode</h2>
+          <label class="check-row" for="enabledInput"><input id="enabledInput" type="checkbox" /><span>Enable filtering</span></label>
+          <fieldset class="mode-options">
+            <legend class="sr-only">Filtering mode</legend>
+            <label class="mode-row" for="modeHideInput">
+              <input id="modeHideInput" type="radio" name="mode" value="hide" />
+              <span><span class="mode-label">Hide matching content</span><span class="mode-desc">Remove the nearest post, comment, search result, video, or image.</span></span>
+            </label>
+            <label class="mode-row" for="modeRedactInput">
+              <input id="modeRedactInput" type="radio" name="mode" value="redact" />
+              <span><span class="mode-label">Redact only the word</span><span class="mode-desc">Cover matching words inline while preserving the page layout.</span></span>
+            </label>
+          </fieldset>
+        </div>
+        <div class="panel">
+          <h2>Privacy</h2>
+          <p class="body-copy">Blocked terms and mode are stored locally on this device. The extension does not make network requests, load remote scripts, track browsing, or use accounts.</p>
+          <p class="body-copy">Whole-word matching is always on for space-delimited scripts so blocking "art" does not match "start". CJK terms are matched directly.</p>
+        </div>
+      </section>
+      <p id="status" class="status" role="status" aria-live="polite"></p>
+      <p id="errorStatus" class="status error" role="alert" aria-live="assertive"></p>
+      <div class="mobile-save"><button id="mobileSaveBtn" class="primary-btn" type="button">Save</button></div>
+    </main>
+    <script src="storage.js"></script>
+    <script src="options.js"></script>
+  </body>
+</html>
