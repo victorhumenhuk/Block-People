@@ -207,7 +207,7 @@
       const start = match.index;
       const end = start + value.length;
 
-      if (value && hasWholeWordBoundary(text, start, end, value)) {
+      if (value && (!settings.wholeWord || hasWholeWordBoundary(text, start, end, value))) {
         ranges.push({ start, end });
       }
 

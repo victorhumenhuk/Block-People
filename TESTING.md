@@ -1,38 +1,59 @@
 # Testing
 
+Use this checklist before publishing a new version of Block People & Keywords.
+
 ## Automated Gates
 
-```sh
+```bash
+npm run lint
+npm run typecheck --if-present
 npm run build
 ```
 
-## Static Privacy Audit
+Expected result: all commands pass with no warnings or errors. The build output is written to `dist/chrome/`.
 
-Run against extension resources:
+## Static Verification
 
-```sh
-rg -n "fetch\\(|XMLHttpRequest|navigator\\.sendBeacon|new WebSocket|new EventSource|storage\\.sync|eval\\(|new Function" Chrome "Safari/Block People & Keywords/Shared (Extension)/Resources"
-```
+Run the release scan for monetisation copy, outbound network APIs, dirty Git state, and removable untracked files.
 
-Expected: zero matches.
+Expected result: the scans, `git status --short`, and `git clean -nd` produce no output.
 
-## Responsive UI
+## Chrome Manual Checklist
 
-Open `Chrome/popup.html` and `Chrome/options.html` in a browser and verify:
+- Popup opens within 200ms.
+- Add a name, refresh a news site, and confirm the name is redacted or hidden according to the selected mode.
+- Add a keyword, scroll X/Twitter, and confirm matching posts disappear in hide mode.
+- Toggle the extension off, refresh, and confirm original content returns.
+- Resize the popup from 320px to 800px wide and confirm there is no horizontal overflow.
+- Enable dark mode and confirm the popup and options page remain readable at WCAG AA contrast.
+- Complete add, remove, clear, mode change, save, reload, and toggle flows using only the keyboard.
+- Confirm GitHub, X, and Privacy links open in new tabs.
+- Confirm `chrome.storage.sync` data survives extension reload.
+- Confirm the manifest loads with no warnings in `chrome://extensions`.
 
-- 320px, 375px, 390px, 428px, 440px, 768px, 1024px, 1366px widths.
-- Dynamic Type equivalent from normal through the largest accessibility text size.
-- No horizontal scrolling, clipping, or overlapping text.
-- Popup list scrolls internally with touch momentum.
-- Keyboard tab order and focus rings are visible.
-- Light mode, dark mode, and reduced motion.
+## Site Smoke Test
 
-## Functional Checklist
+Load the unpacked extension and check the browser console on:
 
-- Add a term in the popup; current tabs update without reload.
-- Hide mode removes the nearest semantic content container.
-- Redact mode covers only the matching word inline.
-- Removing a term restores hidden/redacted content where the original DOM is still present.
-- Dynamic content added after page load is filtered.
-- Blocking `art` does not match `start`.
-- Cyrillic, Arabic, Hebrew, CJK, and emoji-adjacent terms behave as expected.
+- google.com
+- youtube.com
+- x.com
+- twitter.com
+- reddit.com
+- facebook.com
+- linkedin.com
+- news.ycombinator.com
+- bbc.co.uk
+- theguardian.com
+
+Expected result: no extension-origin console errors.
+
+## Cross-Browser
+
+- Chrome 109+
+- Edge 109+
+- Brave latest
+- Opera latest
+- Safari via `xcrun safari-web-extension-converter` or the checked-in Safari Xcode project
+
+Storage sync between two signed-in browser profiles should be tested manually outside this local sandbox.

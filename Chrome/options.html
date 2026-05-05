@@ -41,13 +41,36 @@
         </div>
         <div class="panel">
           <h2>Privacy</h2>
-          <p class="body-copy">Blocked terms and mode are stored locally on this device. The extension does not make network requests, load remote scripts, track browsing, or use accounts.</p>
+          <p class="body-copy">Blocked terms and mode are stored in browser extension storage and may sync through the browser if sync is enabled. The extension does not make network requests, load remote scripts, track browsing, or use accounts.</p>
           <p class="body-copy">Whole-word matching is always on for space-delimited scripts so blocking "art" does not match "start". CJK terms are matched directly.</p>
         </div>
       </section>
       <p id="status" class="status" role="status" aria-live="polite"></p>
       <p id="errorStatus" class="status error" role="alert" aria-live="assertive"></p>
       <div class="mobile-save"><button id="mobileSaveBtn" class="primary-btn" type="button">Save</button></div>
+      <footer class="resource-footer" aria-label="Extension links">
+        <a
+          href="https://github.com/victorhumenhuk/Block-People"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Open Block People & Keywords on GitHub"
+          title="GitHub"
+        >GitHub</a>
+        <a
+          href="https://x.com/victorhumenhuk"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Open Victor Humenhuk on X"
+          title="X"
+        >X</a>
+        <a
+          href="https://thesmios.com/privacy"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Open privacy policy"
+          title="Privacy"
+        >Privacy</a>
+      </footer>
     </main>
     <script src="storage.js"></script>
     <script src="options.js"></script>
